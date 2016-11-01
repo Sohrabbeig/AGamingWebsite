@@ -1,0 +1,30 @@
+.fa {
+    color: white;
+    float: right;
+    margin-right: 20px;
+}
+
+#homepage_logo {
+    float: left;
+    margin-left: 20px;
+}
+
+
+#navigation_bar {
+    background: #333;
+    width: 100%;
+    position: fixed;
+    margin-left: -8px;
+    margin-top: -8px;
+    padding: 10px;
+}
+
+#right_links {
+    float: right;
+    margin-right: 10px;
+}
+
+a {
+    text-align: center;
+}
+
