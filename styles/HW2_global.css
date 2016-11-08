@@ -1,30 +1,66 @@
 .fa {
-    color: white;
     float: right;
     margin-right: 20px;
 }
 
-#homepage_logo {
-    float: left;
-    margin-left: 20px;
+a {
+    color: white;
+    text-decoration: none;
 }
 
+body {
+    font-family: Shabnam, serif;
+}
+
+#homepage_link {
+    float: right;
+    margin-right: 20%;
+    position: relative;
+}
 
 #navigation_bar {
     background: #333;
     width: 100%;
     position: fixed;
     margin-left: -8px;
-    margin-top: -8px;
+    margin-top: -18px;
     padding: 10px;
 }
 
-#right_links {
-    float: right;
-    margin-right: 10px;
+#left_links {
+    float: left;
+    margin-left: 20%;
+    padding-top: 4px;
+    position: relative;
 }
 
 a {
     text-align: center;
 }
 
+@font-face {
+    font-family: Shabnam;
+    src: url('../assets/shabnam font/Shabnam.eot');
+    src: url('../assets/shabnam font/Shabnam.eot?#iefix') format('embedded-opentype'),
+    url('../assets/shabnam font/Shabnam.woff') format('woff'),
+    url('../assets/shabnam font/Shabnam.ttf') format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Shabnam-Bold;
+    src: url('../assets/shabnam font/Shabnam-Bold.eot');
+    src: url('../assets/shabnam font/Shabnam-Bold.eot') format('embedded-opentype'),
+    url('../assets/shabnam font/Shabnam-Bold.woff') format('woff'),
+    url('../assets/shabnam font/Shabnam-Bold.ttf') format('truetype');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: Shabnam-Light;
+    src: url('../assets/shabnam font/Shabnam-Light.eot');
+    src: url('../assets/shabnam font/Shabnam-Light.eot?#iefix') format('embedded-opentype'),
+    url('../assets/shabnam font/Shabnam-Light.woff') format('woff'),
+    url('../assets/shabnam font/Shabnam-Light.ttf') format('truetype');
+    font-weight: 300;
+}
