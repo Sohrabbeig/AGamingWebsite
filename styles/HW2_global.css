@@ -25,6 +25,7 @@ body {
     margin-left: -8px;
     margin-top: -18px;
     padding: 10px;
+    z-index: 2;
 }
 
 #left_links {
@@ -37,6 +38,12 @@ body {
 a {
     text-align: center;
 }
+
+a:hover {
+    color: red;
+}
+
+
 
 @font-face {
     font-family: Shabnam;

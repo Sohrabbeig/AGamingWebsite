@@ -4,7 +4,7 @@ body {
 }
 
 #Login_form {
-    width: 400px;
+    width: 350px;
     height: 350px;
     position: relative;
     border-radius: 5px;
@@ -12,10 +12,99 @@ body {
     right: 35%;
     top: 170px;
     background-color: white;
+    z-index: 1;
 }
 
 #form_title {
     text-align: center;
     font-family: Shabnam-Bold;
     font-size: large;
+}
+
+#form_footer {
+    background-color: #AAA;
+    position: absolute;
+    border-radius: 0 0 5px 5px;
+    bottom: 0px;
+    width: 100%;
+}
+
+#form_footer p {
+    display: inline;
+    float: right;
+    position: relative;
+    right: 1em;
+}
+
+#form_footer a {
+    text-decoration: underline;
+    position: relative;
+    top: 1em;
+    float: right;
+    right: 1.5em;
+    color: blue;
+}
+
+#form_footer a:hover {
+    color: red;
+}
+
+.form-icon {
+    color: #888;
+    margin-right: 0px;
+}
+
+.input {
+    float: right;
+    border-style:none none solid none ;
+    margin-right: 10px;
+    border-bottom-color: #888;
+    border-bottom-width: thin;
+    width: 245px;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    font-family: Shabnam;
+    text-align: right;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    font-family: Shabnam;
+    text-align: right;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    font-family: Shabnam;
+    text-align: right;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    font-family: Shabnam;
+    text-align: right;
+}
+
+button[type="submit"] {
+    font-family: Shabnam;
+    width: 80%;
+    border: none;
+    background-color: #ff3333;
+    color: white;
+    position: relative;
+    left: 10%;
+    right: 10%;
+    border-radius: 3px;
+}
+
+.input-container {
+    position: relative;
+    width: 80%;
+    left: 10%;
+    right: 10%
+}
+
+.psw a {
+    color: black;
+}
+
+span.psw {
+    position: relative;
+    left: 35%;
+    right: 35%;
 }
