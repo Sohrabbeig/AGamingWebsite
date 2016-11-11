@@ -75,7 +75,7 @@
     text-align: right;
 }
 
-button[type="submit"] {
+button {
     font-family: Shabnam;
     width: 80%;
     border: none;
@@ -85,6 +85,10 @@ button[type="submit"] {
     left: 10%;
     right: 10%;
     border-radius: 3px;
+}
+
+button:hover {
+    background-color: red;
 }
 
 .input-container {
@@ -102,4 +106,21 @@ span.psw {
     position: relative;
     left: 35%;
     right: 35%;
+}
+
+.fa {
+    float: right;
+}
+
+.input-container:hover *{
+    color: #ff3333;
+}
+
+.input-container:hover input {
+    border-bottom-color: #ff3333;
+}
+
+i.fa.fa-lock.fa-2x.form-icon {
+    position: relative;
+    top: -7px;
 }

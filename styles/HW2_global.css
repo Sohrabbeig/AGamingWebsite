@@ -101,3 +101,8 @@ a:hover {
     url('../assets/shabnam font/Shabnam-Light-FD.ttf') format('truetype');
     font-weight: 300;
 }
+
+button {
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
