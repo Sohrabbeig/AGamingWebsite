@@ -9,14 +9,47 @@
     <link rel="icon" href="../assets/images/favicon.png" type="image/png">
 </head>
 <body>
-    <div id="main">
-        <div id="navigation_bar">
-            <a href="Homepage.html" title="صفحه اصلی" id="homepage_logo"><i class="fa fa-home fa-lg" aria-hidden="true"></i></a>
-            <div id="right_links">
-                <a href="Login.html" title="ورود" id="login_logo"><i class="fa fa-sign-in fa-lg" aria-hidden="true"></i></a>
-                <a href="Register.html" title="ثبت نام" id="register_logo"><i class="fa fa-user-plus fa-lg" aria-hidden="true"></i></a>
-            </div>
+<div id="main">
+    <div id="navigation_bar">
+        <div  id="homepage_link">
+            <a href="Homepage.html" title="صفحه اصلی">CeitGames</a>
+        </div>
+        <div id="left_links">
+            <a href="Login.html" title="ورود" id="login_logo"><i class="fa fa-sign-in fa-lg" aria-hidden="true"></i></a>
+            <a href="Register.html" title="ثبت نام" id="register_logo"><i class="fa fa-user-plus fa-lg" aria-hidden="true"></i></a>
         </div>
     </div>
+    <div id="Login_form">
+        <p id="form_title">ثبت نام</p>
+        <form action="action_page.php">
+            <div class="container">
+                <br>
+                <div class="input-container">
+                    <label><i class="fa  fa-user fa-lg  form-icon" aria-hidden="true"></i></label>
+                    <input class="input" type="password" placeholder="نام کاربری    " name="psw" required>
+                </div>
+                <br>
+                <div class="input-container">
+                    <label><i class="fa fa-envelope fa-lg form-icon" aria-hidden="true"></i></label>
+                    <input  class="input" type="text" placeholder="ایمیل یا شماره تلفن" name="uname" required>
+                </div>
+                <br>
+                <div class="input-container">
+                    <label><i class="fa fa-lock fa-2x form-icon" aria-hidden="true"></i></label>
+                    <input class="input" type="password" placeholder="رمز عبور    " name="psw" required>
+                </div>
+                <br>
+                <div class="input-container">
+                    <label><i class="fa fa-square-o" aria-hidden="true"></i></label>
+                    <p id="accept-rules"><a href="#">قوانین</a>را میپذیرم </p>
+                </div>
+
+                <button type="submit">ثبت نام</button>
+            </div>
+
+        </form>
+
+    </div>
+</div>
 </body>
 </html>

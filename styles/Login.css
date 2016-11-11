@@ -1,8 +1,3 @@
-body {
-    background-color: cadetblue;
-    height: 600px;
-}
-
 #Login_form {
     width: 350px;
     height: 350px;
@@ -99,7 +94,7 @@ button[type="submit"] {
     right: 10%
 }
 
-.psw a {
+.psw a{
     color: black;
 }
 
