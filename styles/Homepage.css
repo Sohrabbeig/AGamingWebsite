@@ -2,3 +2,7 @@ h1 {
     color: red;
     text-align: center;
 }
+
+#navigation_bar {
+    margin-top: -10px;
+}
